@@ -1,0 +1,4 @@
+<resources>
+    <string name="library_name">MyLibrary</string>
+    <string name="toast">您点击了第%d项</string>
+</resources>
