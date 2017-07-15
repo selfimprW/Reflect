@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void jumpTestActivity(View v){
+    public void jumpTestActivity(View v) {
         startActivity(new Intent(this, TestActivity.class));
+        finish();
     }
 }
